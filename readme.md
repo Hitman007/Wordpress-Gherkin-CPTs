@@ -1,0 +1,1 @@
+This plugin creates Custom Post Types for the Gherkin language in Wordpress.
