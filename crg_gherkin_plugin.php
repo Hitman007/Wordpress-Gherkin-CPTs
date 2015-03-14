@@ -15,6 +15,7 @@ function CRGautoloader($class) {
 }
 // <^-- END //This loads the classes nessicary for this plugin:
 
+//If a pickle is being submitted, then launch the Pickle Receiver
 if (isset($_POST['CRG_Gherkin_form_submit_button'])){
 	CRGautoloader("CRG_GherkinReceiver");
 	$CRG_GherkinReceiver = new CRG_GherkinReceive;
