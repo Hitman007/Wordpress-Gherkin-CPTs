@@ -7,16 +7,8 @@ class CRG_GherkinCustomPostTypes {
 	} 
 	public function activate() {
 		$this->create_taxonomies();
-		wp_insert_term(__('Features'),'pickle-type',array('description'=> __('Features are what the system does, or should do.'),'slug' => 'feature'));
-		wp_insert_term(__('Scenarios'),'pickle-type');
-		wp_insert_term(__('Terms'),'pickle-type');
-		wp_insert_term(__('Actors'),'pickle-type');
-		wp_insert_term(__('Values'),'pickle-type');
-		wp_insert_term(__('Hurdles'),'pickle-type');
-		wp_insert_term(__('Spears'),'pickle-type');
-
-
-  
+		include_once("CRG_GherkinDefaultEnglishPickles.class.php");
+		$GherkinDefaultEnglishPickles = new CRG_GherkinDefaultEnglishPickles;
 
 	}
 	function create_taxonomies() {
