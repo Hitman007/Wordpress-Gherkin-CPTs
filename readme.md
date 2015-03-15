@@ -2,11 +2,12 @@
 Hey, does anyone know how I float this image so it wraps?
 
 # Wordpress Gherkin CPTs #
-This plugin creates Custom Post Types for the Gherkin language in Wordpress.
+This plugin assumes you are familiar with Behavior Driven Development, the Gherkin language, and BeHat feature files.
+This plugin creates Custom Post Types and custom taxonomies for the Gherkin language in Wordpress.
 Introduces the concept of a "pickle" which is a single Gherkin statement.
-Pickles are stored as Wordpress CPTs.
+Pickles are stored as Wordpress CPTs, "Pickles".
 Introduces Wordpress custom taxonomy for Gherkin pickles:
-Pickles can be FEATURES, SCENARIOS, TERMS, ACTORS, or PICKLES.
+Pickles can be FEATURES, SCENARIOS, TERMS, ACTORS, or PICKLES. PICKLES are English sentences made up TERMS, ACTORS and a phrase like "WHEN[term] JOHN[actor] goes to the store and buys milk[phrase]". Each pickle is stored as a Wordpress CPT. 
 
 ## INSTALATION: ##
 Create a directory in your /wp-content/plugins/ directory called "crg_gherkin"
