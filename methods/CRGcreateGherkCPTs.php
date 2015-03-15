@@ -1,13 +1,4 @@
 <?php
-/*
-Plugin Name: CRG Gherkin Custom Post Types
-Plugin URI: http://customrayguns.com
-Description: Creats CPTs for the Gherkin language 
-Version: 1.0
-Author: Custom Ray Guns
-Author URI: http://customrayguns.com
-*/
-
 add_action('init', 'CRGcreateGherkCustomPostType');
 add_action('admin_menu', 'crg_add_task_settings');
  
@@ -35,7 +26,7 @@ function CRGcreateGherkCustomPostType(){
 		'description'         => __( 'Gherks', 'crg_text_domain' ),
 		'labels'              => $labels,
 		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'trackbacks', 'revisions', 'custom-fields'),
-		'taxonomies'          => array( 'ghekin_types' ),
+		'taxonomies'          => array( 'Pickle Types' ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
@@ -107,30 +98,6 @@ function crg_get_more_tab()
 <p>Many long paragraphs about Gherks...</p>
 <? }
 
-function create_my_taxonomies() {
-	register_taxonomy(
-		'gherkin_types',
-		'gherk',
-		array(
-			'labels' => array(
-				'name' => 'Gherkin Types',
-				'add_new_item' => 'Add New Gherkin Type',
-        	        	'new_item_name' => "New Gherkin Type"
-				),
-			'show_ui' => true,
-       	     		'show_tagcloud' => true,
-			'hierarchical' => false
-		)
-   	 );
-
-$my_cat = array('cat_name' => 'My Category', 'category_description' => 'A Cool Category', 'category_nicename' => 'category-slug', 'category_parent' => '');
-
-// Create the category
-//$my_cat_id = wp_insert_category($my_cat);
-
-}
-
-add_action( 'init', 'create_my_taxonomies', 0 );
 
 
 ?>
