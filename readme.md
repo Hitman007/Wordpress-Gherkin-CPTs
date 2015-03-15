@@ -16,5 +16,8 @@ Create a directory in your /wp-content/plugins/ directory called "crg_gherkin"
 Copy the files from this git to that directory.
 In your Wordpress admin area, go to "Plugins", then look for "CRG Gherkin" and click "Activate".
 
+## HOW TO USE: ##
+The code is pretty well documented. You can use the CPTs just like regular Wordpress posts. In the future, this can be the basis of other applications.
+
 ## DEVELOPERS WANTED ##
 Hey guys, I could use some help. If you're a Wordpress programmer or developer, contact me to conrtibute!
