@@ -8,5 +8,10 @@ Pickles are stored as Wordpress CPTs.
 Introduces Wordpress custom taxonomy for Gherkin pickles:
 Pickles can be FEATURES, SCENARIOS, TERMS, ACTORS, or PICKLES.
 
+## INSTALATION: ##
+Create a directory in your /wp-content/plugins/ directory called "crg_gherkin"
+Copy the files from this git to that directory.
+In your Wordpress admin area, go to "Plugins", then look for "CRG Gherkin" and click "Activate".
+
 ## DEVELOPERS WANTED ##
 Hey guys, I could use some help. If you're a Wordpress programmer or developer, contact me to conrtibute!
