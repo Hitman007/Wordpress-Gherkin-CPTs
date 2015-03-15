@@ -1,4 +1,6 @@
 ![pickle.png](https://bitbucket.org/repo/aAdo7g/images/3063536449-pickle.png)
+Anyone know how I float this image so it wraps?
+
 # DEVELOPERS WANTED #
 Hey guys, I could use some help. If you're a Wordpress programmer or developer, contact me to conrtibute!
 
