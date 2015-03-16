@@ -1,5 +1,6 @@
+<div style="float: right">
 ![pickle.png](https://bitbucket.org/repo/aAdo7g/images/3063536449-pickle.png)
-Hey, does anyone know how I float this image so it wraps?
+</div>
 
 # Wordpress Gherkin CPTs #
 This plugin assumes you are familiar with [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior-driven_development), the [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html), and [Behat feature files](http://docs.behat.org/en/latest/guides/1.gherkin.html#features).
