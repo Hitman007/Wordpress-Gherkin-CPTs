@@ -1,4 +1,6 @@
 # Wordpress Gherkin CPTs #
+![pickle.png](https://bitbucket.org/repo/aAdo7g/images/2792568942-pickle.png)
+
 
 This plugin assumes you are familiar with [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior-driven_development), the [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html), and [Behat feature files](http://docs.behat.org/en/latest/guides/1.gherkin.html#features).
 This plugin creates custom post types and custom taxonomies for the Gherkin language in Wordpress.
