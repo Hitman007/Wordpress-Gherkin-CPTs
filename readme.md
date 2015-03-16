@@ -21,3 +21,5 @@ The code is pretty well documented. You can use the CPTs just like regular Wordp
 
 ## DEVELOPERS WANTED ##
 Hey guys, I could use some help. If you're a Wordpress programmer or developer, contact me to conrtibute!
+
+![pickles_screen_shot.jpg](https://bitbucket.org/repo/aAdo7g/images/1209142840-pickles_screen_shot.jpg)
