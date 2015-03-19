@@ -1,0 +1,9 @@
+[19-Mar-2015 06:02:50 America/Denver] PHP Notice:  Undefined variable: argv in - on line 14
+[19-Mar-2015 06:02:50 America/Denver] PHP Warning:  in_array() expects parameter 2 to be array, null given in - on line 21
+[19-Mar-2015 06:02:50 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in - on line 46
+[19-Mar-2015 06:03:22 America/Denver] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined index: argv' in phar:///home2/freepok1/public_html/crgnet/wp-content/plugins/crg_gherkin/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php:57
+Stack trace:
+#0 phar:///home2/freepok1/public_html/crgnet/wp-content/plugins/crg_gherkin/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php(57): Composer\Util\ErrorHandler::handle(8, 'Undefined index...', 'phar:///home2/f...', 57, Array)
+#1 phar:///home2/freepok1/public_html/crgnet/wp-content/plugins/crg_gherkin/composer.phar/vendor/symfony/console/Symfony/Component/Console/Application.php(116): Symfony\Component\Console\Input\ArgvInput->__construct()
+#2 phar:///home2/freepok1/public_html/crgnet/wp-content/plugins/crg_gherkin/composer.phar/src/Composer/Console/Application.php(84): Symfony\Component\Console\Application->run(NULL, Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 phar:///home2/freepok1/public_html/crgnet/wp-content/plugins/ in phar:///home2/freepok1/public_html/crgnet/wp-content/plugins/crg_gherkin/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php on line 57
