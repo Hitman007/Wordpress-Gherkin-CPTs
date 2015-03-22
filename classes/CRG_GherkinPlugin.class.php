@@ -4,9 +4,7 @@ class CRG_GherkinPlugin{
 
 	public $pageOutput;
 
-	function __construct(){
-		$this->calculateShortcodeOutput();
-	}
+	function __construct(){}
 
 	public function echoAdminPageOutput(){
 		$this->calculateShortcodeOutput();
@@ -60,9 +58,18 @@ OUTPUT_START_STOP_HERE_DOC;
 	}
 
 	public function registerFeaturesAdminPage(){
-		add_action( 'admin_menu', 'registerFeaturesMenuPage' );
+		add_action( 'admin_menu', array($this, 'addAdminMenuPageToWordpress') );
 	}
 
-}//<^-- END class CRG_GherkinAdminPage{
+	public function addAdminMenuPageToWordpress(){
+		add_menu_page( 'Features', 'Features', 'activate_plugins', 'features', array($this,'instantiateAndEchoAdminPage'), plugins_url( "/crg_gherkin/assets/images/pickle.gif" ) ); 
+	}
 
+	public function instantiateAndEchoAdminPage(){
+		$this->autoloader('CRG_GherkinAdminPage');
+		$CRG_GherkinAdminPage = new CRG_GherkinAdminPage;
+		echo ($CRG_GherkinAdminPage->getAdminPageContents() );
+	}	
+
+}
 ?>

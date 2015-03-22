@@ -1,4 +1,5 @@
 <?php
+//This class adds the link "features" to the plugins.php page
 class CRG_AdditionalPluginAdminLinks{
 
 	function __construct(){
