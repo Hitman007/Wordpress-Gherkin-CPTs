@@ -23,7 +23,7 @@ class CRG_AdditionalPluginAdminLinks{
 	}//<^-- END addPluginActionLinksFilter(){
 
 	function pluginActionLinksFilter($links) { 
-		$additionalLink = '<a href="options-general.php?page=your_plugin.php">Features</a>';//Change this line to whatever
+		$additionalLink = '<a href="/wp-admin/admin.php?page=features">Features</a>';//Change this line to whatever
   		array_push($links, $additionalLink); 
   		return $links; 
 	}//<^-- END pluginActionLinksFilter($links) { 

@@ -11,6 +11,7 @@ class CRG_GherkinCustomPostTypes {
 		add_action('init', array( $this, 'createPickleCustomPostType' ) );
 	} 
 	public function activate() {
+		die("14");
 		$this->create_taxonomies();
 		include_once("CRG_GherkinDefaultEnglishPickles.class.php");
 		$GherkinDefaultEnglishPickles = new CRG_GherkinDefaultEnglishPickles;
@@ -77,6 +78,16 @@ class CRG_GherkinCustomPostTypes {
 			'capability_type'     => 'post',
 		);
 		register_post_type('Pickle', $args);
+
+		wp_insert_term( __('Features'),'pickle-type', array( 'description' => __('Features are what the system does, or should do.'),'slug' => 'feature'));
+		wp_insert_term( __('Scenarios'),'pickle-type', array( 'description' => __('Features are composed of scenarios.'),'slug' => 'scenario'));
+		wp_insert_term( __('Backgrounds'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Scenario Outlines'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Terms'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Actors'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Values'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Hurdles'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Spears'),'pickle-type', array( 'description' => __(''),'slug' => ''));
 	}
 }
 ?>

@@ -13,7 +13,7 @@ include "classes/CRG_GherkinPlugin.class.php";
 
 $CRG_GherkinPlugin = new CRG_GherkinPlugin;
 
-$CRG_GherkinPlugin->registerAcitvationHook();
+$CRG_GherkinPlugin->registerAcitvationHook(__FILE__);
 $CRG_GherkinPlugin->registerAndEnqueueScripts();
 $CRG_GherkinPlugin->registerCustomPostTypes();
 $CRG_GherkinPlugin->receivePickleIfSubmitted();

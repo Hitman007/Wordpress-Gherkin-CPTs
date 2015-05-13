@@ -35,9 +35,12 @@ OUTPUT_START_STOP_HERE_DOC;
 		$CRG_GherkinCustomPostTypes = new CRG_GherkinCustomPostTypes;
 	}
 
-	public function registerAcitvationHook(){
-		register_activation_hook(__FILE__,array($CRG_GherkinCustomPostTypes,'activate'));
+	public function registerAcitvationHook($file){
+		//die("39");//GherkinDefaultEnglishPickles
+		register_activation_hook($file,array($this,'doActivationHook'));
 	}
+
+	public function doActivationHook(){}
 
 	public function receivePickleIfSubmitted(){
 		//If a pickle is being submitted, then launch the Pickle Receiver:

@@ -6,14 +6,12 @@ class CRG_LinkListOfPluginsAndThemes{
 
 	function __construct(){}
 
-	function getLinkList(){
+	public function getLinkList(){
 		$plugins = get_plugins();
 		foreach ($plugins as $plugin){
-
-		var_dump($plugin);die();
-			$output = $output . $plugin['Name'] . "<br />";
+			$this->output = $this->output . $plugin['Name'] . "<br />";
 		}
-		return $output;
+		return $this->output;
 	}
 }
 
