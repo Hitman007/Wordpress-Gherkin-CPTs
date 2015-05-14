@@ -2,7 +2,7 @@
 /*
 Plugin Name: CRG Gherkin Plugin
 Plugin URI: http://customrayguns.com
-Description: CRG Gherkin
+Description: CRG Gherkin CPTs
 Version: 1.0
 Author: Custom Ray Guns
 Author URI: http://customrayguns.com
