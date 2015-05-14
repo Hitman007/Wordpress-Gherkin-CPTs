@@ -24,7 +24,7 @@ class CRG_GherkinAdminPage implements CRG_AdminPage{
 		$CRG_ClickableListOfFeatures = new CRG_ClickableListOfFeatures;
 
 		$someTerseYetDescriptive = __("Some terse yet descriptive text of what is desired");
-		$inOrderTo = __("IN ORDER TO");
+		$inOrderTo = __("IN ORDER TO!");
 		$textASA = __("AS A");
 		$this->adminPageOutput =
 <<<OUTPUT_START_STOP_HERE_DOC
