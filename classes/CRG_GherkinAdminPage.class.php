@@ -25,7 +25,7 @@ class CRG_GherkinAdminPage implements CRG_AdminPage{
 
 		$someTerseYetDescriptive = __("Some terse yet descriptive text of what is desired");
 		$inOrderTo = __("IN ORDER TO");
-		$textASA = __("ASBALLS A");
+		$textASA = __("AS A");
 		$this->adminPageOutput =
 <<<OUTPUT_START_STOP_HERE_DOC
 <div id = "crg_gherkin_container_div">
