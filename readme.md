@@ -4,8 +4,8 @@
 
 This plugin assumes you are familiar with [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior-driven_development), the [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html), and [Behat feature files](http://docs.behat.org/en/latest/guides/1.gherkin.html#features).
 This plugin creates custom post types and custom taxonomies for the Gherkin language in Wordpress.
-Introduces the concept of a "pickle" which is a single Gherkin statement.
-Pickles are stored as Wordpress CPTs, "Pickles".
+The plugin introduces the concept of a "pickle" which is a single Gherkin statement.
+Pickles are stored as Wordpress CPTs: "Pickles".
 Introduces Wordpress custom taxonomy for Gherkin pickles:
 Each pickle is stored as a Wordpress CPT. 
 Pickles can be FEATURES, SCENARIOS, TERMS, ACTORS, BACKGROUNDS, SCENARIO OUTLINES, or PICKLES. Pickles are sentences made up of terms, actors and a plain language phrase like "WHEN[term] JOHN[actor] goes to the store and buys milk[phrase]". 
