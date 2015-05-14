@@ -5,13 +5,11 @@ class CRG_GherkinCustomPostTypes {
 	
 	public $pluginDirectory; 
 	public function __construct() {
-	die(__FILE__);
 		$this->pluginDirectory = plugin_dir_url(dirname( __FILE__ ));
 		add_action( 'init', array( $this, 'create_taxonomies' ) );
 		add_action('init', array( $this, 'createPickleCustomPostType' ) );
 	} 
 	public function activate() {
-		die("14");
 		$this->create_taxonomies();
 		include_once("CRG_GherkinDefaultEnglishPickles.class.php");
 		$GherkinDefaultEnglishPickles = new CRG_GherkinDefaultEnglishPickles;
