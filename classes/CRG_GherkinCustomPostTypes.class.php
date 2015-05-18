@@ -79,13 +79,13 @@ class CRG_GherkinCustomPostTypes {
 
 		wp_insert_term( __('Features'),'pickle-type', array( 'description' => __('Features are what the system does, or should do.'),'slug' => 'feature'));
 		wp_insert_term( __('Scenarios'),'pickle-type', array( 'description' => __('Features are composed of scenarios.'),'slug' => 'scenario'));
-		wp_insert_term( __('Backgrounds'),'pickle-type', array( 'description' => __(''),'slug' => ''));
-		wp_insert_term( __('Scenario Outlines'),'pickle-type', array( 'description' => __(''),'slug' => ''));
-		wp_insert_term( __('Terms'),'pickle-type', array( 'description' => __(''),'slug' => ''));
-		wp_insert_term( __('Actors'),'pickle-type', array( 'description' => __(''),'slug' => ''));
-		wp_insert_term( __('Values'),'pickle-type', array( 'description' => __(''),'slug' => ''));
-		wp_insert_term( __('Hurdles'),'pickle-type', array( 'description' => __(''),'slug' => ''));
-		wp_insert_term( __('Spears'),'pickle-type', array( 'description' => __(''),'slug' => ''));
+		wp_insert_term( __('Backgrounds'),'pickle-type', array( 'description' => __('A pre-condition for a feature.'),'slug' => 'background'));
+		wp_insert_term( __('Scenario Outlines'),'pickle-type', array( 'description' => __('Scenario template.'),'slug' => 'outline'));
+		wp_insert_term( __('Terms'),'pickle-type', array( 'description' => __('The words used in BDD'),'slug' => 'terms'));
+		wp_insert_term( __('Actors'),'pickle-type', array( 'description' => __('Objects that can act.'),'slug' => 'actor'));
+		wp_insert_term( __('Values'),'pickle-type', array( 'description' => __('The moral principals of actors.'),'slug' => 'value'));
+		wp_insert_term( __('Hurdles'),'pickle-type', array( 'description' => __('What stands in the way.'),'slug' => 'hurdle'));
+		wp_insert_term( __('Spears'),'pickle-type', array( 'description' => __('A single BDD statement.'),'slug' => 'spear'));
 	}
 }
 ?>
