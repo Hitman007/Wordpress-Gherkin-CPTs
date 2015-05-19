@@ -6,7 +6,7 @@ Feature: Wordpress Gherkin Custom Post Types
 Scenario: The plugin is activated
   Given the plugin is installed
   When the plguin is activated
-  Then the CPTs are creatred
-  And the CPT types are created
+  Then the CPTs "pickles" are created
+  And the various pickle types are created
 
-Scenario: There are CPTs
+Scenario: the various pickle types are created
