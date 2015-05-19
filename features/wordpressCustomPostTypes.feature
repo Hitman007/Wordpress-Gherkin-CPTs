@@ -10,3 +10,7 @@ Scenario: The plugin is activated
   And the various pickle types are created
 
 Scenario: the various pickle types are created
+  Given the plugin is activated
+  When the user sees a list of pickle types
+  There will be pickle-type "terms"
+  And there will be pickle-type "actors"
