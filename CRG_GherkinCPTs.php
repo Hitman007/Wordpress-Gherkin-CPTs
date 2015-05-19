@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CRG Gherkin Plugin
+Plugin Name: CRG Gherkin Custom Post Types
 Plugin URI: http://customrayguns.com
 Description: CRG Gherkin CPTs
 Version: 1.1
@@ -17,6 +17,6 @@ $CRG_GherkinCPTs->registerAcitvationHook(__FILE__);
 $CRG_GherkinCPTs->registerAndEnqueueScripts();
 $CRG_GherkinCPTs->registerCustomPostTypes();
 $CRG_GherkinCPTs->receivePickleIfSubmitted();
-$CRG_GherkinCPTs->addFeatureRequestLinksInPluginsAdminSection();
-$CRG_GherkinCPTs->registerFeaturesAdminPage();
+//$CRG_GherkinCPTs->addFeatureRequestLinksInPluginsAdminSection();
+//$CRG_GherkinCPTs->registerFeaturesAdminPage();
 ?>
