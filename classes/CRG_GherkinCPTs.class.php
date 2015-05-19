@@ -1,6 +1,6 @@
 <?php
 
-class CRG_GherkinPlugin{
+class CRG_GherkinCPTs{
 
 	public $pageOutput;
 
