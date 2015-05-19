@@ -9,7 +9,7 @@ Author URI: http://customrayguns.com
 Text Domain: CRG_Gherkin_Text_Domain
 */
 
-include "classes/CRG_GherkinCPTs.class.php";
+include "classes/CRG_GherkinCPTsPlugin.class.php";
 
 $CRG_GherkinCPTs = new CRG_GherkinCPTs;
 
