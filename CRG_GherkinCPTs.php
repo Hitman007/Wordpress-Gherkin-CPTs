@@ -11,12 +11,12 @@ Text Domain: CRG_Gherkin_Text_Domain
 
 include "classes/CRG_GherkinCPTsPlugin.class.php";
 
-$CRG_GherkinCPTs = new CRG_GherkinCPTs;
+$CRG_GherkinCPTsPlugin = new CRG_GherkinCPTsPlugin;
 
-$CRG_GherkinCPTs->registerAcitvationHook(__FILE__);
-$CRG_GherkinCPTs->registerAndEnqueueScripts();
-$CRG_GherkinCPTs->registerCustomPostTypes();
-$CRG_GherkinCPTs->receivePickleIfSubmitted();
-//$CRG_GherkinCPTs->addFeatureRequestLinksInPluginsAdminSection();
-//$CRG_GherkinCPTs->registerFeaturesAdminPage();
+$CRG_GherkinCPTsPlugin->registerAcitvationHook(__FILE__);
+$CRG_GherkinCPTsPlugin->registerAndEnqueueScripts();
+$CRG_GherkinCPTsPlugin->registerCustomPostTypes();
+$CRG_GherkinCPTsPlugin->receivePickleIfSubmitted();
+//$CRG_GherkinCPTsPlugin->addFeatureRequestLinksInPluginsAdminSection();
+//$CRG_GherkinCPTsPlugin->registerFeaturesAdminPage();
 ?>
