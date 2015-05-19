@@ -3,11 +3,6 @@
 
 
 This plugin assumes you are familiar with [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior-driven_development), the [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html).
-
-NOTE:
-Originally, I ran across BDD using Behat. Behat is an app that runs test from the command line. We are not going to use Behat.
-
-[Behat feature files](http://docs.behat.org/en/latest/guides/1.gherkin.html#features).
 This plugin creates custom post types and custom taxonomies for the Gherkin language in Wordpress.
 The plugin introduces the concept of a "pickle" which is a single Gherkin statement.
 Pickles are stored as Wordpress CPTs: "Pickles".
