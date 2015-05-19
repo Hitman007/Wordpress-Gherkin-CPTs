@@ -3,20 +3,20 @@
 Plugin Name: CRG Gherkin Plugin
 Plugin URI: http://customrayguns.com
 Description: CRG Gherkin CPTs
-Version: 1.0
+Version: 1.1
 Author: Custom Ray Guns
 Author URI: http://customrayguns.com
 Text Domain: CRG_Gherkin_Text_Domain
 */
 
-include "classes/CRG_GherkinPlugin.class.php";
+include "classes/CRG_GherkinCPTs.class.php";
 
-$CRG_GherkinPlugin = new CRG_GherkinPlugin;
+$CRG_GherkinCPTs = new CRG_GherkinCPTs;
 
-$CRG_GherkinPlugin->registerAcitvationHook(__FILE__);
-$CRG_GherkinPlugin->registerAndEnqueueScripts();
-$CRG_GherkinPlugin->registerCustomPostTypes();
-$CRG_GherkinPlugin->receivePickleIfSubmitted();
-$CRG_GherkinPlugin->addFeatureRequestLinksInPluginsAdminSection();
-$CRG_GherkinPlugin->registerFeaturesAdminPage();
+$CRG_GherkinCPTs->registerAcitvationHook(__FILE__);
+$CRG_GherkinCPTs->registerAndEnqueueScripts();
+$CRG_GherkinCPTs->registerCustomPostTypes();
+$CRG_GherkinCPTs->receivePickleIfSubmitted();
+$CRG_GherkinCPTs->addFeatureRequestLinksInPluginsAdminSection();
+$CRG_GherkinCPTs->registerFeaturesAdminPage();
 ?>
