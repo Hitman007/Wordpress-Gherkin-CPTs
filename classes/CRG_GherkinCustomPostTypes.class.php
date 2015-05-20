@@ -85,7 +85,7 @@ class CRG_GherkinCustomPostTypes {
 		wp_insert_term( __('Actors'),'pickle-type', array( 'description' => __('Objects that can act.'),'slug' => 'actor'));
 		wp_insert_term( __('Values'),'pickle-type', array( 'description' => __('The moral principals of actors.'),'slug' => 'value'));
 		wp_insert_term( __('Hurdles'),'pickle-type', array( 'description' => __('What stands in the way.'),'slug' => 'hurdle'));
-		wp_insert_term( __('Spears'),'pickle-type', array( 'description' => __('A single BDD statement.'),'slug' => 'spear'));
+		wp_insert_term( __('Pickle'),'pickle-type', array( 'description' => __('A single BDD statement.'),'slug' => 'pickel'));
 	}
 }
 ?>
