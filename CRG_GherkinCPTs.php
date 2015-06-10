@@ -8,7 +8,7 @@ Author: Hitman007
 Author URI: http://customrayguns.com
 Text Domain: CRG_Gherkin_Text_Domain
 */
-die("asdf");
+
 //load and instantiate the plugin:
 include "classes/CRG_GherkinCPTsPlugin.class.php";
 $CRG_GherkinCPTsPlugin = new CRG_GherkinCPTsPlugin;
