@@ -6,8 +6,8 @@ class CRG_GherkinCustomPostTypes {
 	public $pluginDirectory; 
 	public function __construct() {
 		$this->pluginDirectory = plugin_dir_url(dirname( __FILE__ ));
-		add_action( 'registered_post_type', array( $this, 'create_taxonomies' ) );
-		add_action('registered_post_type', array( $this, 'createPickleCustomPostType' ) );
+		add_action( 'init', array( $this, 'create_taxonomies' ) );
+		add_action('init', array( $this, 'createPickleCustomPostType' ) );
 	} 
 	public function activate() {
 		$this->create_taxonomies();
