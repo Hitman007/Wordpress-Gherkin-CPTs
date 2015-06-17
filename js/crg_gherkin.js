@@ -1,3 +1,3 @@
 jQuery("dcoument").ready(function(){
-	alert("jQuery running. /js/crg_gherkin.js");
+	//alert("jQuery running. /js/crg_gherkin.js");
 });
